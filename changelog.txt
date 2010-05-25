@@ -1,0 +1,30 @@
+----------------------------
+Objective-C Helper ChangeLog
+----------------------------
+
+
+25/May/2010
+-----------
+
+  - Fixed a problem when tracking R0 register that was modified by
+  previous calls. Now if the script is tracking R0 and finds a BX/BLX,
+  it assumes that is modifying R0 and stops, marking the tracking as
+  failed.
+
+  - Changed the way the script parses the data references so it works
+  both with release and debug binaries. Instead of getting the raw
+  offset we now use recursive calls to idautils.DataRefsFrom().
+  For the references to work properly we had to make a pre-process
+  converting all dwords to offsets in the classrefs and superrefs
+  sections.
+
+  - In some cases, compiler can decide to use LR as a general register
+  so the search for R0..R15 fails. Now the script includes the
+  handling of this special case.
+
+  - Added check of Thumb/non-Thumb code for patching the calls correctly.
+
+  - Fixed bug that was getting the incorrect parameters for other
+  flavours of msgSend(). Now it should be easier to add others.
+
+
