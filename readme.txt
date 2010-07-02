@@ -10,6 +10,7 @@ callgraph and more useful cross references. A bit of extra information
 can be found on:
 
 http://blog.zynamics.com/2010/04/27/objective-c-reversing-i/
+http://blog.zynamics.com/2010/04/27/objective-c-reversing-ii/
 
 
 Prerequisites

@@ -2,6 +2,11 @@
 Objective-C Helper ChangeLog
 ----------------------------
 
+02/July/2010
+------------
+
+  - Added new script for static class analysis.
+
 
 25/May/2010
 -----------
