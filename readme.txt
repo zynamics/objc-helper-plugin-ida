@@ -13,6 +13,12 @@ http://blog.zynamics.com/2010/04/27/objective-c-reversing-i/
 http://blog.zynamics.com/2010/04/27/objective-c-reversing-ii/
 
 
+Also fixObjectiveCx86 implements a port that works on x86 binaries, as
+Vincenzo explains in this other blog post:
+
+http://blog.zynamics.com/2010/06/08/objective-c-phun-on-mac-os-x/
+
+
 Prerequisites
 -------------
 
