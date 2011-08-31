@@ -2,6 +2,19 @@
 Objective-C Helper ChangeLog
 ----------------------------
 
+31/Aug/2011
+-----------
+
+  - Bugfix: idc.SegByName was not returning segment start address but segment
+  selector (seems a fix from HexRays), which caused an infinite loop.
+
+  - Now objc_helper is more conservative about the method and class names as
+  it requires them to be identified as ASCII by IDA.
+
+  - objc_class now checks for the reference to the class definition to be
+  valid inside __objc_const.
+
+
 02/July/2010
 ------------
 
