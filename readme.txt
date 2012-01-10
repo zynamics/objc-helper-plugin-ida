@@ -1,3 +1,11 @@
+zynamics Objective-C helper script has moved to Google Code
+==================================++=======================
+
+This repository has moved to Google Code:
+http://code.google.com/p/zynamics/source/checkout?repo=objc-helper
+
+
+
 zynamics Objective-C helper script
 
 
